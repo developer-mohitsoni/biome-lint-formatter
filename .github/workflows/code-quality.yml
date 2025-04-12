@@ -16,5 +16,7 @@ jobs:
           node-version: "18"
       - name: Install dependencies
         run: npm install
+      - name: Format code
+        run: npm run format
       - name: Run Biome
-        run: npm run lint
+        run: npm run biome
