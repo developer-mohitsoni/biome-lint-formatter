@@ -19,4 +19,4 @@ jobs:
       - name: Format code
         run: npm run format
       - name: Run Biome
-        run: npm run biome
+        run: npm run lint
